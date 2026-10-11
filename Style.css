@@ -1,0 +1,996 @@
+/* @font-face {
+        font-family: Gilroy;
+        src: url(https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.woff2) format("woff2"), url(https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.woff) format("woff"), url(https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-ExtraBold.ttf) format("truetype");
+    } */
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Medium.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/Gilroy-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Gilroy;
+
+}
+/* .headbox-inner{
+     min-width: max-content;
+     transform-origin: top left;
+} */
+
+
+.Headbox {
+
+    background-color: rgb(255, 82, 0);
+   
+    width: 100%;
+    min-width: max-content;
+    margin-bottom: 120px;
+    /* overflow: hidden; */
+    /* margin-bottom: 200px; */
+    /* min-width: 1278px; */
+
+
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    /* gap: 275px; */
+    padding: 34px 20px;
+    /* position: absolute; */
+
+    /* padding: 34px 0px; */
+
+}
+
+.optionsofnav {
+    font-weight: 700;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    gap: 34px;
+
+}
+
+.optionsofnav span {
+    color: white;
+}
+
+.optionsofnav button {
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.optionsofnav button svg {
+    transform: rotate(-45deg);
+
+}
+
+.getAPP {
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgb(255, 82, 0);
+
+    border-radius: 14px;
+}
+
+.signin {
+    font-weight: 700;
+    padding: 15px 35px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+    /* width: 140px; */
+    border-radius: 14px;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.quote img {
+    object-fit: cover;
+}
+
+.quote div {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.xo {
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    /* width: 300px;
+    height: 60px;
+    background-color: white;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center; */
+
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.location input {
+    width: 200px;
+    background-color: white;
+
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    font-weight: 500;
+
+}
+
+.restaurants {
+    /* width: 483px;
+    height: 60px;
+    background-color: white;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center; */
+    width: 483px;
+    height: 60px;
+    background-color: white;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+
+
+.restaurants input {
+    width: 250px;
+    background-color: white;
+
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    font-weight: 500;
+}
+
+.restaurants img {
+    filter: invert(65%);
+    width: 25px;
+
+    padding-right: 16px;
+
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_cards {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    padding: 33px 0;
+
+}
+
+.img_cards img {
+    width: 100%;
+
+}
+
+.outercover {
+    width: 880px;
+    min-width: 1207px;
+    display: flex;
+    flex-direction: column;
+
+    
+    /* border: 2px solid black; */
+    margin: auto;
+     margin-bottom: 120px;
+
+}
+
+
+.foodHead {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     font-family: Gilroy;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    letter-spacing: -1.2px;
+    margin-bottom: 27px;
+    margin-right: 20px;
+    
+
+}
+
+
+.dish img{
+    /* width: 144px;
+    min-width: 144px; */
+    height: 180px;
+    min-height: 180px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.dish2{
+    display: flex;
+}
+.dish2 div{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.dish div p{
+ font-family: Gilroy;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+
+@media (max-width:1516px) {
+    .img_cards {
+        width: 280px;
+    }
+}
+@media(max-width:1300px){
+    .outercover{
+        margin-left: 45.5px;
+    }
+}
+
+
+/* =====================================================================
+   =====================================================================
+   EVERYTHING BELOW THIS LINE IS NEW.  Nothing above it was edited.
+
+   HOW THE RESPONSIVENESS WORKS
+   ----------------------------
+   The whole page is designed once, at a 1440-wide desktop, and then shrinks
+   proportionally on any smaller screen (phone, tablet, small laptop), so every
+   device sees the same layout, just smaller. Above 1440 it stays full size and centred.
+
+   --u is "one design pixel":
+        wide screen (1440 or more)  ->  --u = 1px
+        narrower screen             ->  --u = screen width / 1440
+
+   so   calc(25 * var(--u))   means "25px on a big screen, scaled down on a small one".
+   To make the page scale less (or more) on small screens, change --design-width.
+   For any NEW rule you add, write sizes as calc(N * var(--u)) instead of Npx.
+   ===================================================================== */
+
+:root {
+    --design-width: 1440;
+    --u: min(1px, calc(100vw / var(--design-width)));
+}
+
+html {
+    -webkit-text-size-adjust: 100%;  /* stop phones from inflating small text */
+    text-size-adjust: 100%;
+}
+
+body {
+    overflow-x: hidden;              /* never allow sideways page scroll */
+}
+
+a:focus-visible,
+select:focus-visible {
+    outline: 2px solid #ff5200;      /* keep the keyboard focus ring visible at any scale */
+    outline-offset: 2px;
+}
+
+
+/* ---------- A) HERO (navbar + title + search + 3 cards) ---------- */
+
+.Headbox {
+    min-width: 0;                    /* was max-content: it forced sideways scrolling */
+    position: relative;
+    overflow: hidden;
+    margin-bottom: calc(120 * var(--u));
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    justify-content: space-between;  /* logo on the left edge, buttons on the right edge */
+    width: calc(1207 * var(--u));                   /* same width as every section below */
+    margin: 0 auto;
+    padding: calc(34 * var(--u)) 0;
+}
+
+.navbar > img {
+    width: calc(150 * var(--u));
+    height: auto;
+}
+
+.optionsofnav {
+    gap: calc(34 * var(--u));
+}
+
+.optionsofnav span,
+.optionsofnav button {
+    font-size: calc(16 * var(--u));
+}
+
+.optionsofnav button {
+    gap: calc(5 * var(--u));
+}
+
+.optionsofnav button svg {
+    width: calc(21 * var(--u));
+    height: calc(21 * var(--u));
+}
+
+.getAPP {
+    padding: calc(15 * var(--u));
+    border: calc(1 * var(--u)) solid white;
+    border-radius: calc(14 * var(--u));
+}
+
+.signin {
+    padding: calc(15 * var(--u)) calc(35 * var(--u));
+    border: calc(1 * var(--u)) solid black;
+    border-radius: calc(14 * var(--u));
+}
+
+/* the veggies / sushi pictures sit in the two top corners and no longer take part in the layout */
+.quote {
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.quote > img {
+    position: absolute;
+    top: calc(110 * var(--u));
+    width: calc(180 * var(--u));
+    height: auto;
+    z-index: 0;
+}
+
+.quote > img:first-child {
+    left: 0;
+}
+
+.quote > img:last-child {
+    right: 0;
+}
+
+.middle {
+    position: relative;
+    z-index: 1;
+    padding-top: calc(20 * var(--u));
+}
+
+.quote div {
+    font-size: calc(48 * var(--u));
+}
+
+.middle > div:first-child {
+    line-height: 1.2;
+}
+
+.xo {
+    margin-top: calc(24 * var(--u));
+    gap: calc(12 * var(--u));
+}
+
+.location {
+    width: calc(300 * var(--u));
+    height: calc(60 * var(--u));
+    border-radius: calc(16 * var(--u));
+}
+
+.location input {
+    width: calc(200 * var(--u));
+    padding: calc(8 * var(--u));
+    font-size: calc(14 * var(--u));
+    border-radius: calc(4 * var(--u));
+}
+
+.location svg:first-child {
+    width: calc(24 * var(--u));
+    height: calc(24 * var(--u));
+}
+
+.location svg:last-child {
+    width: calc(20 * var(--u));
+    height: calc(21 * var(--u));
+}
+
+.restaurants {
+    width: calc(483 * var(--u));
+    height: calc(60 * var(--u));
+    border-radius: calc(16 * var(--u));
+}
+
+.restaurants input {
+    width: calc(250 * var(--u));
+    padding: calc(8 * var(--u));
+    font-size: calc(14 * var(--u));
+    border-radius: calc(4 * var(--u));
+}
+
+.restaurants img {
+    width: calc(25 * var(--u));
+    padding-right: calc(16 * var(--u));
+}
+
+/* the three big cards: Food Delivery / Instamart / Dineout */
+.img_cards {
+    width: calc(1150 * var(--u));
+    gap: calc(40 * var(--u));
+    padding: calc(40 * var(--u)) 0;
+}
+
+.img_cards img {
+    flex: 1 1 0;
+    min-width: 0;
+    width: 100%;
+}
+
+
+/* ---------- B) SECTIONS: containers, headings, dish rows ---------- */
+
+.outercover {
+    width: calc(1207 * var(--u));
+    min-width: 0;                    /* was 1207px: it forced sideways scrolling */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(120 * var(--u));
+}
+
+.foodHead {
+    font-size: calc(25 * var(--u));
+    letter-spacing: calc(-1.2 * var(--u));
+    margin-bottom: calc(27 * var(--u));
+}
+
+.dish {
+    font-size: calc(16 * var(--u));                 /* so the tiny gaps between inline images scale too */
+}
+
+.dish img {
+    height: calc(180 * var(--u));
+    min-height: calc(180 * var(--u));
+    margin-left: calc(15 * var(--u));
+    margin-right: calc(15 * var(--u));
+}
+
+.dish2 div {
+    margin-left: calc(7 * var(--u));
+    margin-right: calc(7 * var(--u));
+}
+
+.dish div p {
+    font-size: calc(20 * var(--u));
+    line-height: calc(24 * var(--u));
+    letter-spacing: calc(-0.5 * var(--u));
+}
+
+
+/* ---------- C) carousel arrows (replace the "sv1,sv2" placeholders) ----------
+   Your HTML has <div> sv1,sv2</div> as a placeholder. This hides that text and
+   draws two round arrow buttons in its place, for all three carousel headings.
+   >>> When you drop in your own SVG arrows, delete this whole block. <<<  */
+
+.foodHead > div:nth-child(2) {
+    font-size: 0;
+    color: transparent;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    gap: calc(10 * var(--u));
+    flex-shrink: 0;
+}
+
+.foodHead > div:nth-child(2)::before,
+.foodHead > div:nth-child(2)::after {
+    width: calc(32 * var(--u));
+    height: calc(32 * var(--u));
+    border-radius: 50%;
+    background: rgb(226, 226, 231);
+    color: rgba(2, 6, 12, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(16 * var(--u));
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.foodHead > div:nth-child(2)::before {
+    content: "\2190";
+    opacity: 0.5;                    /* left arrow looks "disabled" like the original */
+}
+
+.foodHead > div:nth-child(2)::after {
+    content: "\2192";
+}
+
+/* The Instamart row behaves like a carousel: clip at the container edge and scroll sideways */
+.dish2 {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.dish2::-webkit-scrollbar {
+    display: none;
+}
+
+.dish2 > div {
+    flex: 0 0 auto;
+}
+
+
+/* ---------- D) Dineout cards ---------- */
+
+.outercover.dineoutSec,
+.outercover.appBannerSec,
+.outercover.citiesSec {
+    margin-bottom: calc(52 * var(--u));
+}
+
+.dineout {
+    --dcard-w: calc(248 * var(--u));                /* change this one value to resize every card */
+    display: flex;
+    gap: calc(11 * var(--u));
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* breathing room so the card shadows are not clipped by overflow */
+    padding: calc(2 * var(--u)) calc(2 * var(--u)) calc(14 * var(--u));
+    margin: calc(-2 * var(--u)) calc(-2 * var(--u)) calc(-14 * var(--u));
+}
+
+.dineout::-webkit-scrollbar {
+    display: none;
+}
+
+.dcard {
+    box-sizing: border-box;
+    flex: 0 0 var(--dcard-w);
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: calc(14 * var(--u));
+    overflow: hidden;
+    box-shadow: 0 calc(2 * var(--u)) calc(10 * var(--u)) rgba(2, 6, 12, 0.14);
+    transition: transform 0.2s ease;
+}
+
+.dcard:hover {
+    transform: scale(0.97);
+}
+
+.dcard-img {
+    position: relative;
+    height: calc(124 * var(--u));
+    flex-shrink: 0;
+}
+
+.dcard-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* dark fade at the bottom of the photo so the white name stays readable */
+.dcard-img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.dcard-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(8 * var(--u));
+    padding: 0 calc(10 * var(--u)) calc(7 * var(--u));
+    color: #fff;
+}
+
+.dname {
+    min-width: 0;
+    font-size: calc(16 * var(--u));
+    font-weight: 700;
+    letter-spacing: calc(-0.3 * var(--u));
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.drating {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: calc(4 * var(--u));
+    font-size: calc(13 * var(--u));
+    font-weight: 700;
+}
+
+.dstar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(14 * var(--u));
+    height: calc(14 * var(--u));
+    border-radius: 50%;
+    background: #1ba672;
+    color: #fff;
+    font-style: normal;
+    font-size: calc(8 * var(--u));
+    line-height: 1;
+}
+
+.dcard-info {
+    padding: calc(9 * var(--u)) calc(9 * var(--u)) 0;
+}
+
+.drow {
+    display: flex;
+    justify-content: space-between;
+    gap: calc(8 * var(--u));
+    font-size: calc(11.5 * var(--u));
+    font-weight: 500;
+    line-height: calc(16 * var(--u));
+    color: rgba(2, 6, 12, 0.6);
+    white-space: nowrap;
+}
+
+.drow span:first-child {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.drow span:last-child {
+    flex-shrink: 0;
+}
+
+/* green "Flat xx% off" pill */
+.doffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: calc(6 * var(--u));
+    height: calc(25 * var(--u));
+    margin-top: calc(9 * var(--u));
+    padding: 0 calc(8 * var(--u));
+    border-radius: calc(6 * var(--u));
+    background: #1ba672;
+    color: #fff;
+    font-size: calc(10.5 * var(--u));
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.doffer-text {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.doffer-more {
+    flex-shrink: 0;
+}
+
+.pct {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(14 * var(--u));
+    height: calc(14 * var(--u));
+    margin-right: calc(6 * var(--u));
+    border-radius: 50%;
+    background: #fff;
+    color: #1ba672;
+    font-style: normal;
+    font-size: calc(9 * var(--u));
+    font-weight: 700;
+}
+
+/* pale green "bank offers" bar */
+.dbank {
+    margin-top: calc(6 * var(--u));
+    padding: 0 calc(9 * var(--u));
+    height: calc(25 * var(--u));
+    display: flex;
+    align-items: center;
+    border-radius: calc(6 * var(--u));
+    background: #c9f5e0;
+    color: #1ba672;
+    font-size: calc(11.5 * var(--u));
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dpaytm {
+    padding: calc(7 * var(--u)) calc(9 * var(--u)) calc(9 * var(--u));
+    font-size: calc(10.5 * var(--u));
+    font-weight: 600;
+    color: #3a37c4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* ---------- E) App download banner ---------- */
+
+.appBanner {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ---------- F) Cities with food delivery ---------- */
+
+.cityGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: calc(9 * var(--u)) calc(11 * var(--u));
+    width: 95.7%;                    /* the original grid stops a little short of the right edge */
+}
+
+.cityGrid a {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(38 * var(--u));
+    padding: calc(6 * var(--u)) calc(10 * var(--u));
+    border: calc(1 * var(--u)) solid rgba(2, 6, 12, 0.15);
+    border-radius: calc(8 * var(--u));
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: calc(13 * var(--u));
+    font-weight: 500;
+    color: rgba(2, 6, 12, 0.75);
+    transition: box-shadow 0.2s ease;
+}
+
+.cityGrid a:hover {
+    box-shadow: 0 calc(3 * var(--u)) calc(10 * var(--u)) rgba(2, 6, 12, 0.12);
+}
+
+.cityGrid a.more {
+    gap: calc(7 * var(--u));
+    color: #ff5200;
+    font-weight: 600;
+}
+
+/* little chevron-down drawn with borders */
+.cityGrid a.more::after {
+    content: "";
+    width: calc(6 * var(--u));
+    height: calc(6 * var(--u));
+    border-right: calc(1.5 * var(--u)) solid #ff5200;
+    border-bottom: calc(1.5 * var(--u)) solid #ff5200;
+    transform: rotate(45deg) translateY(calc(-2 * var(--u)));
+}
+
+
+/* ---------- G) Footer ---------- */
+
+.footer {
+    background: #f0f0f5;
+    padding-top: calc(28 * var(--u));
+}
+
+.footer-inner {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: calc(320 * var(--u)) repeat(4, 1fr);
+    width: calc(1056 * var(--u));
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    padding-top: calc(8 * var(--u));
+}
+
+.footer-logo {
+    display: block;
+    height: calc(32 * var(--u));
+    width: auto;
+}
+
+.footer-brand p {
+    margin-top: calc(10 * var(--u));
+    font-size: calc(13 * var(--u));
+    font-weight: 500;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.footer-col h4 {
+    font-size: calc(16 * var(--u));
+    font-weight: 700;
+    line-height: calc(24 * var(--u));
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.footer-col h4.legal {
+    margin-top: calc(34 * var(--u));
+}
+
+.footer-col h4.social {
+    margin-top: calc(46 * var(--u));
+}
+
+.footer-col > a {
+    display: block;
+    width: fit-content;
+    font-size: calc(14 * var(--u));
+    font-weight: 500;
+    line-height: calc(24 * var(--u));
+    color: rgba(2, 6, 12, 0.6);
+    text-decoration: none;
+}
+
+.footer-col > a:hover {
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.footer-select {
+    margin-top: calc(8 * var(--u));
+    padding: calc(3 * var(--u)) calc(4 * var(--u));
+    border: calc(1 * var(--u)) solid rgba(2, 6, 12, 0.25);
+    border-radius: calc(4 * var(--u));
+    background: transparent;
+    font-size: calc(12 * var(--u));
+    font-weight: 500;
+    color: rgba(2, 6, 12, 0.6);
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: calc(14 * var(--u));
+    margin-top: calc(8 * var(--u));
+}
+
+.footer-col .social-icons a {
+    display: flex;
+    line-height: 0;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.social-icons svg {
+    width: calc(16 * var(--u));
+    height: calc(16 * var(--u));
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: calc(16 * var(--u)) calc(20 * var(--u));
+    margin: calc(40 * var(--u)) 5% 0;
+    padding: calc(24 * var(--u)) 0 calc(24 * var(--u));
+    border-top: calc(1 * var(--u)) solid rgba(2, 6, 12, 0.15);
+}
+
+.footer-bottom p {
+    font-size: calc(20 * var(--u));
+    font-weight: 600;
+    letter-spacing: calc(-0.4 * var(--u));
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+
+.stores {
+    display: flex;
+    gap: calc(16 * var(--u));
+}
+
+.stores img {
+    display: block;
+    height: calc(40 * var(--u));
+    width: auto;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .dcard,
+    .cityGrid a {
+        transition: none;
+    }
+}
